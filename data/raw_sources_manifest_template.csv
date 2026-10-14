@@ -1,0 +1,10 @@
+provider,dataset,source_url,version_or_year,access_date,local_path,sha256,redistribution_note
+FBI,Uniform Crime Reporting annual files,https://cde.ucr.cjis.gov/LATEST/webapp/,1960-2014,2022-01-01,data/raw_crime_data/<year>.dat,,Confirm FBI redistribution terms
+ICPSR,UCR Offenses Known and Clearances by Arrest,https://doi.org/10.3886/ICPSR37911.v1,2015-2020 v1,2022-10-05,data/ICPSR/<year>.tsv,,Subject to ICPSR terms
+IPUMS NHGIS,Population time-series extract,https://www.nhgis.org/data,1970-2010,2022-01-01,data/ipumns_raw_data/population_1970-2010/nhgis0003_ts_nominal_county.csv,,Record extract definition and IPUMS terms
+IPUMS NHGIS,Education time-series extract,https://www.nhgis.org/data,Historical extract,2022-01-01,data/ipumns_raw_data/education/nhgis0014_ts_nominal_county.csv,,Record extract definition and IPUMS terms
+IPUMS NHGIS,Labor-force and employment extract,https://www.nhgis.org/data,Historical extract,2022-01-01,data/ipumns_raw_data/labor_force_and_employment/nhgis0015_ts_nominal_county.csv,,Record extract definition and IPUMS terms
+US Census Bureau,County population estimates,https://www.census.gov/programs-surveys/popest.html,1970-1989,2022-01-01,data/county_population_1970_1989_us_census/<file>.xls,,Confirm Census redistribution terms
+US Census Bureau,County poverty estimates,https://data.census.gov/,1989-2019,2022-01-01,data/census_poverty_data_1989_2019/<year>.<ext>,,Record exact table and download URL
+CDC WONDER,Bridged-Race Population Estimates,https://wonder.cdc.gov/Bridged-Race-v2020.HTML,1990-2020,2022-01-01,data/cdc_county_population_1990_2019/<file>.txt,,Save query criteria with export
+US Bureau of Labor Statistics,Local Area Unemployment Statistics county annual averages,https://www.bls.gov/lau/tables.htm,1990-2020,2022-01-01,data/annual_unemployment_1990-2020/laucnty<yy>.txt,,Preserve original BLS download

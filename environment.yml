@@ -1,0 +1,24 @@
+name: nature-cities-murders
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy<1.24
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - palettable
+  - arviz
+  - cython<3
+  - joblib
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - openpyxl
+  - pip:
+      - pystan==2.19.1.1
+      - watermark

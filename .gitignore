@@ -1,0 +1,39 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Processed and source data are kept locally pending redistribution clearance.
+data/**/*.csv
+data/**/*.tsv
+data/**/*.dat
+!data/raw_sources_manifest_template.csv
+
+# Local/generated analysis artifacts
+results/5000/
+
+# Superseded analysis artifacts retained locally only.
+data/Poverty-Rates-by-County-1960-2010.xlsm
+data/Poverty-Rates-by-County-1960-2010.xlsm.cpgz
+data/crosswalk_1996.csv
+data/crosswalk_2012.csv
+data/clean_dataframes/full_merged_data_1960_2017.csv
+data/clean_dataframes/urban_metrics_interpolated_and_cleaned_1960_2017.csv
+data/clean_dataframes/black_population.csv
+data/clean_dataframes/education.csv
+data/clean_dataframes/minorities_population.csv
+data/clean_dataframes/poverty_population.csv
+data/clean_dataframes/total_population.csv
+data/clean_dataframes/unemployment.csv
+data/clean_dataframes/white_population.csv
+src/load_data.py
+src/loo.py
+src/ste.py
+
+# Raw files that exceed GitHub's 100 MB per-file limit or are archival sources.
+# Keep the processed analysis inputs under data/clean_dataframes/ in Git.
+data/clean_dataframes/crime.csv
+data/ICPSR/
+data/historical_trend/*.pdf

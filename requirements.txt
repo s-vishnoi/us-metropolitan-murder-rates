@@ -1,0 +1,18 @@
+# For the exact PyStan 2 environment, prefer: conda env create -f environment.yml
+numpy<1.24
+pandas
+scipy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+palettable
+arviz
+Cython<3
+joblib
+jupyterlab
+ipykernel
+ipywidgets
+openpyxl
+pystan==2.19.1.1
+watermark
