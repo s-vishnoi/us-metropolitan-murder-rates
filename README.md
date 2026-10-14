@@ -1,12 +1,8 @@
 # Poverty and ethnic diversity predict US metropolitan murder rates over 60 years
 
-Reproducibility materials for the manuscript submitted to *Nature Cities*. The study analyzes murder, demographic, and socioeconomic measures for 344 US metropolitan statistical areas from 1960 through 2020.
-
-The submitted manuscript is included in [`manuscript/`](manuscript/). The cover letter is not included.
+Analysis code and notebooks for 344 US metropolitan statistical areas from 1960 to 2020.
 
 ## Quick start
-
-The repository contains the analysis code and environment used for the manuscript. Processed inputs are available to editors and reviewers upon request but are not distributed publicly pending confirmation of the source providers' redistribution terms.
 
 ```bash
 conda env create -f environment.yml
@@ -38,7 +34,7 @@ Open the notebooks from the repository root and follow the order in [`notebooks/
 5. Notebook S1 generates Supplementary Figure S1.
 6. Notebook 09 generates Supplementary Figure S2.
 
-The source and processed data are not redistributed here. Editors and reviewers may request the processed files from the corresponding author. See [`data/README.md`](data/README.md) for sources and expected file locations.
+The source and processed data are not redistributed here. They are available to editors and reviewers upon request. See [`data/README.md`](data/README.md) for sources and expected file locations.
 
 ## Bayesian output files
 
